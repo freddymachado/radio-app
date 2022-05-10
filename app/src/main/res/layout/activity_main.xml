@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="@android:color/black"
-    tools:context=".MainActivity">
+    tools:context="com.gvm.reproductor.MainActivity">
 
 
     <ImageView
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/radio" />
+        app:srcCompat="@drawable/radiorock" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"

@@ -1,11 +1,8 @@
-package com.example.reproductor;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.gvm.reproductor;
 
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,6 +12,10 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.reproductor.R;
 
 import java.io.IOException;
 
@@ -33,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer mediaPlayer;
 
     String stream1 = "http://stream.radioreklama.bg:80/radio1rock128";
-    String stream = "http://162.251.160.57:8028/";
 
     boolean prepared = false;
     boolean started = false;
